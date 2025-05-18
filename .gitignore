@@ -1,0 +1,26 @@
+# Android build
+.gradle/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration
+local.properties
+*.iml
+
+# IDE settings
+.idea/
+.DS_Store
+
+# Firebase config
+app/google-services.json
+
+# APK
+*.apk
+
+# Cache
+*.log
+*.cache
+*.tmp

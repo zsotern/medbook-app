@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">FoglaljDokit</string>
+    <string name="Login">Bejelentkezés</string>
+    <string name="Logout">Kijelentkezés</string>
+    <string name="EmailAddress">Email cím</string>
+    <string name="Password">Jelszó</string>
+    <string name="Registration">Regisztráció</string>
+    <string name="MedicalAppointmentBooking">FoglaljDokit</string>
+    <string name="PasswordConfirm">Jelszó megerősítése</string>
+    <string name="PhoneNumber">Telefonszám</string>
+    <string name="Cancel">Mégsem</string>
+    <string name="Név">Név</string>
+    <string name="Booking">Időpontfoglalás</string>
+    <string name="Settings">Beállítások</string>
+    <string name="inProgress">A második mérföldkőre készül :D</string>
+    <string name="SpecialtyList">Szakterület</string>
+    <string name="description">Leírás</string>
+    <string name="Next">Tovább</string>
+    <string name="doctor_name">Doktor neve</string>
+    <string name="bio">Rövid leírás</string>
+    <string name="doctor">Doktor</string>
+    <string name="profil">Profil</string>
+    <string name="home">Kezdőlap</string>
+    <string name="History">Foglalások</string>
+    <string name="select_specialty">Szakterület választása</string>
+    <string name="appointments">Foglalások</string>
+    <string name="select_doctor">Doktor választása</string>
+    <string name="select_date_and_time">Dátum és időpont választása</string>
+
+    <!-- Specialty Names -->
+    <string-array name="specialty_names">
+        <item>Kardiológia</item>
+        <item>Szemészet</item>
+        <item>Ortopédia</item>
+        <item>Fogászat</item>
+        <item>Fül-orr-gégészet</item>
+        <item>Neurológia</item>
+    </string-array>
+
+    <!-- Specialty Images -->
+    <array name="specialty_images">
+        <item>@drawable/heart_v</item>
+        <item>@drawable/eyes_v</item>
+        <item>@drawable/bones_v</item>
+        <item>@drawable/teeth_v</item>
+        <item>@drawable/ears_v</item>
+        <item>@drawable/brain_v</item>
+    </array>
+
+    <string-array name="specialty_id">
+        <!-- Kardiológia -->
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+
+        <!-- Szemészet -->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+
+        <!-- Ortopédia -->
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+
+        <!-- Fogászat -->
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+
+        <!-- Fül-orr-gégészet -->
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+
+        <!-- Neurológia -->
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Doctor Names -->
+    <string-array name="doctor_names">
+        <!-- Kardiológia -->
+        <item>Dr. Kiss Anna</item>
+        <item>Dr. Kovács János</item>
+        <item>Dr. Varga Márta</item>
+        <item>Dr. Tóth Zoltán</item>
+
+        <!-- Szemészet -->
+        <item>Dr. Szabó Éva</item>
+        <item>Dr. Nagy Péter</item>
+        <item>Dr. Varga Nóra</item>
+
+        <!-- Ortopédia -->
+        <item>Dr. Farkas László</item>
+        <item>Dr. Balogh Eszter</item>
+        <item>Dr. Molnár András</item>
+        <item>Dr. Lakatos Alma</item>
+        <item>Dr. Papp Zoltán</item>
+
+        <!-- Fogászat -->
+        <item>Dr. Horváth Kata</item>
+        <item>Dr. Fehér Miklós</item>
+        <item>Dr. Bálint Emese</item>
+
+        <!-- Fül-orr-gégészet -->
+        <item>Dr. Szalai Gábor</item>
+        <item>Dr. Németh Tímea</item>
+        <item>Dr. Kiss Tamás</item>
+        <item>Dr. Fekete Júlia</item>
+
+        <!-- Neurológia -->
+        <item>Dr. Kocsis Béla</item>
+        <item>Dr. Kerekes Rita</item>
+        <item>Dr. Jakab Dávid</item>
+    </string-array>
+
+    <!-- Doctor Bios -->
+    <string-array name="doctor_bios">
+        <!-- Kardiológia -->
+        <item>20 éve gyógyítja a szívbetegségeket.</item>
+        <item>Több mint 9 éves klinikai tapasztalat.</item>
+        <item>Szívritmuszavarok specialistája.</item>
+        <item>Szívkatéterezés szakértője.</item>
+
+        <!-- Szemészet -->
+        <item>12 éves tapasztalat látásjavításban.</item>
+        <item>Lézeres korrekció specialista.</item>
+        <item>Gyermekszemészetre specializálódott.</item>
+
+        <!-- Ortopédia -->
+        <item>Mozgásszervi problémák specialistája.</item>
+        <item>Térdprotézis és csípőprotézis műtétek.</item>
+        <item>Sportorvoslás és rehabilitáció.</item>
+        <item>Gerincproblémák kezelése.</item>
+        <item>Csonttörések helyreállítása.</item>
+
+        <!-- Fogászat -->
+        <item>Általános és esztétikai kezelések.</item>
+        <item>Szájsebészeti tapasztalattal.</item>
+        <item>Gyermekfogászat és fogszabályozás.</item>
+
+        <!-- Fül-orr-gégészet -->
+        <item>Légúti és hallásproblémák szakértője.</item>
+        <item>Mandula- és orrpolip műtétek.</item>
+        <item>Hallókészülék illesztés és beállítás.</item>
+        <item>Arcüregi problémák kezelése.</item>
+
+        <!-- Neurológia -->
+        <item>Agyi rendellenességek kezelése.</item>
+        <item>Migrén és krónikus fejfájás szakértője.</item>
+        <item>Epilepszia és mozgászavarok kezelése.</item>
+    </string-array>
+
+    <array name="doctor_images">
+        <item>@drawable/doc_profil_f</item>
+        <item>@drawable/doc_profil_m</item>
+    </array>
+
+</resources>

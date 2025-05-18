@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/registrationTvR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/Registration"
+        android:textColor="@color/text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/userNameEtR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/Név"
+        android:inputType="text"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textAppearance="@style/hint_style"/>
+
+    <EditText
+        android:id="@+id/emailEtR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/EmailAddress"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textAppearance="@style/hint_style"/>
+
+    <EditText
+        android:id="@+id/passwordEtR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textAppearance="@style/hint_style"/>
+
+    <EditText
+        android:id="@+id/passwordConfirmEtR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/PasswordConfirm"
+        android:inputType="textPassword"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textAppearance="@style/hint_style" />
+
+    <EditText
+        android:id="@+id/phoneEtR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/PhoneNumber"
+        android:inputType="phone"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textAppearance="@style/hint_style"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/registrationBtnR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/primary"
+            android:text="@string/Registration"
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:onClick="registration"/>
+
+        <Button
+            android:id="@+id/cancelBtnR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/secondary"
+            android:text="@string/Cancel"
+            android:textColor="@color/highlight"
+            android:textSize="15sp"
+            android:onClick="cancel"/>
+
+    </LinearLayout>
+</LinearLayout>
