@@ -1,0 +1,20 @@
+# Android Projekt Értékelési Dokumentáció
+
+| Követelmény                                       | Megvalósítás                                                                                                                                                             |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fordítási hiba nincs                              | -                                                                                                                                                                        |
+| Futtatási hiba nincs                              | -                                                                                                                                                                        |
+| Firebase autentikáció meg van valósítva           | Bejelentkezés csak regisztrált felhasználóként (email+jelszó). Sikeres regisztráció után a bejelentkezett felhasználóként SpecialtyListActivity                          |
+| Adatmodell definiálása                            | Specialty, Doctor, Appointment, User                                                                                                                                     |
+| Legalább 4 különböző activity használata          | SpecialtyListActivity, DoctorListActivity, AppointmentActivity, UserActivity                                                                                             |
+| Beviteli mezők beviteli típusa megfelelő          | Login: email (szöveg) és jelszó (csillagozva). Regisztráció: email (szöveg), jelszó és jelszó megerősítése (csillagozva), telefonszám (numerikus billentyűzet)           |
+| ConstraintLayout és másik layout típus használata | RelativeLayout: list\_specialty.xml, ConstraintLayout: activity\_history\_list                                                                                           |
+| Reszponzivitás                                    | Különböző kijelző méretek és elforgatás esetén is igényes megjelenés                                                                                                     |
+| Legalább 2 különböző animáció használata          | button\_anim (LoginActivity-145.sor), slide\_in\_row (DoctorAdapter-56.sor)                                                                                              |
+| Intentek használata                               | Profil, Kezdőlap (Szakterület), Foglalások, Login, Specialty -> Doctor -> Appointment -> BookingSuccess                                                                  |
+| Legalább egy Lifecycle Hook használata            | onPause(): UserActivity - aktuális adatok mentése háttérbe kerüléskor                                                                                                    |
+| Legalább 2 Android erőforrás használata           | Notification (alkalmazás nyitásakor), Camera (Profilkép módosítás)                                                                                                       |
+| 2 különböző rendszerszolgáltatás                  | Notification: Sikeres foglalás esetén, Alarm Manager: 5 perccel később                                                                                                   |
+| CRUD műveletek mindegyike megvalósult             | Create: RegistartionActivity-108.sor, Read: UserActivity-123.sor, Delete: UserActivity-157.sor, Update: UserActivity-205.sor                                             |
+| Legalább 3 komplex Firestore lekérdezés           | HistoryListActivity: queryData() - bejelentkezett felhasználók, időpont szerint. DoctorListActivity: queryData() - választott szakterület orvosai, név szerint rendezve. |
+| Szubjektív pontozás                               | A projekt igényessége, átláthatósága és egyedi megvalósítása                                                                                                             |
